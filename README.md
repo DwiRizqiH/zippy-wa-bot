@@ -1,13 +1,15 @@
 # zippy-wa-bot
 Simple Zippy Bot Whatsapp Downloader (Baileys)
 
-# INSTALL
+# CLONE
     git clone https://github.com/DwiRizqiH/zippy-wa-bot
     
+# INSTALL
     npm install
     
 # START
     node index.js
+
 
 
 Single Download : !zippy [url]
