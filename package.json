@@ -19,5 +19,14 @@
   "bugs": {
     "url": "https://github.com/DwiRizqiH/zippy-wa-bot/issues"
   },
-  "homepage": "https://github.com/DwiRizqiH/zippy-wa-bot#readme"
+  "homepage": "https://github.com/DwiRizqiH/zippy-wa-bot#readme",
+  "dependencies": {
+    "@adiwajshing/baileys": "^3.5.1",
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.10",
+    "fs-extra": "^10.0.0",
+    "mathjs": "^9.4.4",
+    "moment-timezone": "^0.5.33",
+    "url": "^0.11.0"
+  }
 }
