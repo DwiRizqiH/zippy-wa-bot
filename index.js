@@ -11,14 +11,11 @@ const moment = require('moment-timezone')
 prefix = '!'
 blocked = []
 
-//require('./index.js')
-//nocache('./index.js', module => console.log(`'${module}' Updated!`))
 async function starts() {
 	const client = new WAConnection()
 	client.logger.level = 'warn'
 	client.on('qr', () => {
-		console.log(color('[','white'), color('!','red'), color(']','white'), color(' Scan the qr code above'))
-		console.log('Scan the qr code')
+		console.log(' Scan the qr code above')
 	})
 
 	fs.existsSync('./clientSession.json') && client.loadAuthInfo('./clientSession.json')
@@ -73,9 +70,9 @@ async function starts() {
 		//const isOwner = ownerNumber.includes(sender)
         //if(!isOwner) return
 
-		const isUrl = (url) => {
+		/*const isUrl = (url) => {
 			return url.match(new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_+.~#?&/=]*)/, 'gi'))
-		}
+		}*/
 		const reply = (teks) => {
 			client.sendMessage(from, teks, text, {quoted:message})
 		}
