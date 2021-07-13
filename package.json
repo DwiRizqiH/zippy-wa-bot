@@ -1,0 +1,23 @@
+{
+  "name": "zippy-wa-bot",
+  "version": "1.0.0",
+  "description": "Zippy Bot Whatsapp Downloader (Baileys)",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DwiRizqiH/zippy-wa-bot.git"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot"
+  ],
+  "author": "DwiRizqiH",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DwiRizqiH/zippy-wa-bot/issues"
+  },
+  "homepage": "https://github.com/DwiRizqiH/zippy-wa-bot#readme"
+}
